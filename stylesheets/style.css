@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.main {
+  background:
+  url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
+  100% 100% no-repeat;
+  height: 600px;
+  display: flex;
+  margin-top: -61px;
+} 
+
+h1 {
+  text-align: center;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 50px;
+  color: black;
+}
