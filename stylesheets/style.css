@@ -18,12 +18,10 @@
 
 .navlist {
   display: flex;
-  /* justify-content: space-evenly;
-  width: 100%; */
+  bottom: -58px;
+  position: relative;
   height: 30px;
-  /* margin-top: 70px; */
   border: 1px solid none;
-  /* padding: 10px; */
   margin: auto;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +32,6 @@
 }
 
 .nav-item {
-  
   padding: 5px 20px 5px 20px;
   float: left;
   height: 30px;
@@ -59,19 +56,34 @@ input[type="text"] {
    background: linear-gradient(#888, rgb(37, 35, 35) 100%); 
 }
 
+.bar-item1 {
+  padding-left: 61px;
+}
+
+.fab {
+  margin-left: -43px;
+}
+
 .small {
   position: relative;
-  top: -42px;
+  top: -134px;
   margin-left: -135px;
 }
 
 .page-text {
   text-align: center;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  font-size: 30px;
-  color: black;
+  font-size: 25px;
+  font-weight: 100;
+  color: rgb(238, 232, 232);
   margin-left: 200px;
   margin-top: 166px;
+}
+
+.page-text p {
+  position: relative;
+  top: -104px;
+  cursor: pointer;
 }
 
 .apple-images {
