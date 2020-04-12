@@ -123,9 +123,9 @@ input[type="text"] {
   float: right;
   display: inline-flex;
   font-size: 0.6em;
-  margin-top: -23px;
+  margin-top: -27px;
   margin-right: 208px;
-  color: #1fb6b6
+  color:rgb(5, 142, 160)
 }
 
 .right-links img {
@@ -159,16 +159,14 @@ input[type="text"] {
 
 #footer-links{
   border-right: .1px solid #ccc;
-  padding-right: 4px;
+  padding-right: 6px;
 }
 
 .footer-text {
   font-size: 0.6em;
   padding: 1rem;
   margin-left: 136px;
-  color: #6e6e6e;
-  line-height: 0;
-  /* font-family :"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;  */
+  margin-top: -9px;
 }
 
 .footer-text a {
