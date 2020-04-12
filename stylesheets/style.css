@@ -123,21 +123,26 @@ input[type="text"] {
   float: right;
   display: inline-flex;
   font-size: 0.6em;
-  margin-top: -22px;
-  margin-right: 250px;
+  margin-top: -23px;
+  margin-right: 208px;
   color: #1fb6b6
 }
+
+.right-links img {
+  cursor: pointer;
+  margin-left: 17px;
+  margin-top: -3px;
+ }
 
 .right-bottom-links {
   border-right: .1px solid #ccc;
   margin-left: 0;
-  padding-left: 6px;
+  padding: 2px 8px 2px 8px;
+  text-align: center;
 }
 
-
 .right-bottom-links a:link {
-  color:  #1fb6b6
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .right-bottom-links a:visited {
@@ -150,6 +155,11 @@ input[type="text"] {
 
 .right-bottom-links a:active {
   text-decoration: underline;
+}
+
+#footer-links{
+  border-right: .1px solid #ccc;
+  padding-right: 4px;
 }
 
 .footer-text {
@@ -179,10 +189,4 @@ input[type="text"] {
 
 .footer-text a:active {
   text-decoration: underline;
-}
-
-img {
- cursor: pointer;
- margin-left: 17px;
- margin-top: -3px;
 }

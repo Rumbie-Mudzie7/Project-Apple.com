@@ -32,13 +32,8 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
 
-- Github: [@krys2fa](https://github.com/krys2fa)
-- Twitter: [@krys2fa](https://twitter.com/krys2fa)
-- Linkedin: [linkedin](https://www.linkedin.com/in/christopher-amanor-81a7b93b/)
-
-👤 **Author2**
+👤 **Author**
 
 - Github: [@Rumbie-Mudzie7](https://github.com/Rumbie-Mudzie7)
 - Twitter: [@RumbidzayiMudz3](https://twitter.com/RumbidzayiMudz3)
