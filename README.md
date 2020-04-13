@@ -1,10 +1,10 @@
 # Project-Apple.com
 This is a project based on setting up background images and gradients
 
-![screenshot](./images/app_screenshot.png)
+![screenshot](./images/Screenshot of Project-Apple.com)
 
 Additional description about the project and its features.
-In this project, we made use of DRY (Do Not Repeat Yourself) principles to make a copy of Mint.com's sign up page. We implemented the use of semantic html, utility classes and variables in our CSS to ensure our code was clean and well structured.
+In this project, I made use of DRY (Do Not Repeat Yourself) principles to make a clone of the Apple.com's page. Since the project's objective is focused on background images and gradients, I implemented the practice as required with particular emphasis on using a background color as well as a hovering linear gradient color.
 
 ## Built With
 
@@ -13,7 +13,7 @@ In this project, we made use of DRY (Do Not Repeat Yourself) principles to make 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Rumbie-Mudzie7/New-York-Times-Article-Clone/56f3083434a8bea35263fca2ff35273b154e16f6/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Rumbie-Mudzie7/Project-Apple.com/71839bfbef958e129e7b42d690baa5d7fc6ff748/index.html)
 
 ## Getting Started
 
