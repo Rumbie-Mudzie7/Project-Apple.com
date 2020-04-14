@@ -22,21 +22,19 @@ body {
 
 .navlist {
   display: flex;
-  bottom: -58px;
+  bottom: -27px;
   position: relative;
-  height: 30px;
   border: 1px solid none;
   margin: auto;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  max-width: 900px;
-  text-align: center;
+  width: 875px;
   border-radius: 4px;
-  background: rgb(107, 101, 101);
+  background: linear-gradient(#888, rgb(37, 35, 35) 100%);
 }
 
 .nav-item {
-  padding: 5px 20px 5px 20px;
+  padding: 7.5px 25px 0 25px;
   float: left;
   height: 30px;
   text-align: center;
@@ -49,18 +47,30 @@ body {
 }
 
 input[type="text"] {
+  background-image: url(https://img.icons8.com/material-sharp/2x/search.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 15px;
   background-color: rgb(107, 101, 101);
-  border: 1px solid rgb(134, 126, 126);
+  border: 1px solid rgb(190, 185, 185);
   border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+#search {
+  padding-top: 6px;
 }
 
 .nav-item:hover {
-  background: linear-gradient(#888, rgb(37, 35, 35) 100%);
+  background: rgb(107, 101, 101);
 }
 
 .bar-item1 {
   padding-left: 51px;
   margin-left: -8px;
+  font-size: 21px;
+  padding-top: 2px;
 }
 
 .fab {
