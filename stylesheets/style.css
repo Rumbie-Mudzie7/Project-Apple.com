@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.main {
+  background:
+    url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
+  100% 100% no-repeat;
+  height: 600px;
+  display: flex;
+  margin-top: -61px;
+  flex-direction: column;
+}
+
+.navlist {
+  display: flex;
+  bottom: -27px;
+  position: relative;
+  border: 1px solid none;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 875px;
+  border-radius: 4px;
+  background: linear-gradient(#888, rgb(37, 35, 35) 100%);
+}
+
+.nav-item {
+  padding: 7.5px 25px 0 25px;
+  float: left;
+  height: 30px;
+  text-align: center;
+  color: azure;
+  font-size: 14px;
+}
+
+.nav-item:not(:last-child) {
+  border-right: 0.5px solid rgb(70, 66, 66);
+}
+
+input[type="text"] {
+  background-image: url(https://img.icons8.com/material-sharp/2x/search.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 15px;
+  background-color: rgb(107, 101, 101);
+  border: 1px solid rgb(190, 185, 185);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+#search {
+  padding-top: 6px;
+}
+
+.nav-item:hover {
+  background: rgb(107, 101, 101);
+}
+
+.bar-item1 {
+  padding-left: 51px;
+  margin-left: -8px;
+  font-size: 21px;
+  padding-top: 2px;
+}
+
+.fab {
+  margin-left: -43px;
+}
+
+.small {
+  position: relative;
+  top: -134px;
+  margin-left: -135px;
+}
+
+.page-text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  color: rgb(238, 232, 232);
+  margin-left: 200px;
+  margin-top: 166px;
+}
+
+.page-text h1 {
+  position: relative;
+  top: -196px;
+  font-size: 61px;
+  margin-left: -154px;
+  cursor: pointer;
+}
+
+.page-text h2 {
+  position: relative;
+  top: -159px;
+  line-height: 20px;
+  margin-left: -224px;
+  cursor: pointer;
+}
+
+.page-text h3 {
+  position: relative;
+  top: -120px;
+  margin-left: -196px;
+  font-size: 20px;
+}
+
+.footer-text a {
+  color: rgb(5, 142, 160);
+}
+
+.page-text a:link {
+  color: antiquewhite;
+  text-decoration-line: none;
+}
+
+.page-text a:visited {
+  text-decoration-line: none;
+}
+
+.page-text a:hover {
+  text-decoration-line: underline;
+}
+
+.page-text a:active {
+  text-decoration-line: underline;
+}
+
+.apple-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 32vh;
+}
+
+#iPhone-1 {
+  background-image: url("https://web.archive.org/web/20140228125639im_/http://images.apple.com/home/images/promo_iphone5s.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 25%;
+}
+
+#iPhone-2 {
+  background-image: url("https://web.archive.org/web/20140228125639im_/http://images.apple.com/home/images/promo_iphone5c.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 25%;
+}
+
+#iPhone-3 {
+  background-image: url("https://web.archive.org/web/20140228125639im_/http://images.apple.com/home/images/promo_30_years.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 25%;
+}
+
+#iPhone-4 {
+  background-image: url("https://web.archive.org/web/20140228125639im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 25%;
+}
+
+.right-links {
+  float: right;
+  display: inline-flex;
+  font-size: 0.6em;
+  margin-top: -27px;
+  margin-right: 208px;
+  color: rgb(5, 142, 160);
+}
+
+.right-links img {
+  cursor: pointer;
+  margin-left: 17px;
+  margin-top: -3px;
+}
+
+.right-bottom-links {
+  border-right: 0.1px solid #ccc;
+  margin-left: 0;
+  padding: 2px 8px 2px 8px;
+  text-align: center;
+}
+
+.right-bottom-links a:link {
+  text-decoration: none;
+}
+
+.right-bottom-links a:visited {
+  text-decoration: none;
+}
+
+.right-bottom-links a:hover {
+  text-decoration: underline;
+}
+
+.right-bottom-links a:active {
+  text-decoration: underline;
+}
+
+#footer-links {
+  border-right: 0.1px solid #ccc;
+  padding-right: 6px;
+}
+
+.footer-text {
+  font-size: 0.6em;
+  padding: 1rem;
+  margin-left: 136px;
+  margin-top: -9px;
+}
+
+.footer-text a:link {
+  text-decoration: none;
+}
+
+.footer-text a:visited {
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
+
+.footer-text a:active {
+  text-decoration: underline;
+}
