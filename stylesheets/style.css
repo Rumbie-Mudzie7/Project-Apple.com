@@ -16,8 +16,6 @@ body {
   display: flex;
   margin-top: -61px;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .navlist {
@@ -140,7 +138,6 @@ input[type="text"] {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  width: 100%;
   height: 32vh;
 }
 
@@ -149,7 +146,7 @@ input[type="text"] {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  width: 25%;
+  width: 25%; 
 }
 
 #iPhone-2 {
@@ -157,7 +154,7 @@ input[type="text"] {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  width: 25%;
+  width: 25%; 
 }
 
 #iPhone-3 {
@@ -165,7 +162,7 @@ input[type="text"] {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  width: 25%;
+  width: 25%; 
 }
 
 #iPhone-4 {
