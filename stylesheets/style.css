@@ -9,13 +9,14 @@ body {
 }
 
 .main {
-  background:
-    url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
-  100% 100% no-repeat;
-  height: 600px;
+  background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-position: 50% 100%;
+  background-size: cover;
+  height: 700px;
   display: flex;
-  margin-top: -61px;
+  margin-top: -80px;
   flex-direction: column;
+  width: 100%;
 }
 
 .navlist {
